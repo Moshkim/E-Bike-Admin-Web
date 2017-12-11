@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="logoPlacement">
+          <h3 class="logo">Mosh</h3><br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form">
+        <form class="register-form">
+
+          <input type="text" id="userNameForSignup" placeholder="name" class="box"/>
+          <input type="text" id="emailAddressForSignup" placeholder="email address"/>
+          <input type="password" id="passwordForSignup" placeholder="password"/>
+          <button id="createButton" type="submit">create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input type="text" id="emailForLogin" placeholder="email"/>
+          <input type="password" id="passwordForLogin" placeholder="password"/>
+          <button id="loginButton" type="submit">login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+  
+  <script src="assets/javascript/firebase.js"></script>
+  <script src="assets/javascript/login.js"></script>
+
+</body>
+</html>
